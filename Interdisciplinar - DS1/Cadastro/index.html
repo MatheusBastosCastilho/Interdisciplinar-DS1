@@ -1,18 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro BiMO</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="#">
-        <h2>Cadastro</h2>
-        <input type="text" name="nome" id="fnome" placeholder="Nome Completo" required>
-        <br><br>
-        <input type="date" name="data" id="fdata" placeholder="Data de Nascimento">
-        <input type="password" name="senha" id="fsenha" placeholder="Senha" required>
-    </form>
+
+    <div class="page">
+        <form method="get" class="formLogin">
+            <h1>Cadastro</h1>
+            <p>Dados pessoais</p>
+            <label for="fnome">Nome Completo</label>
+            <input type="text" name="fnome" id="fnome" placeholder="Ex: José Silva" autofocus="true" required/>
+            <label for="fnasc">Nascimento</label>
+            <input type="date" name="fnasc" id="fnasc" required/>
+            <label for="fcontato">Contato</label>
+            <input type="tel" name="fcontato" id="fcontato" placeholder="(XX) XXXXX-XXXX" maxlength="11" required>
+            <a href="login.html">Fazer login</a>
+
+            <a href="indexEmail.html"><input type="button" value="Próxima etapa" class="btn" /></a></a>
+            
+        </form>
+    </div>
+    
 </body>
 </html>
