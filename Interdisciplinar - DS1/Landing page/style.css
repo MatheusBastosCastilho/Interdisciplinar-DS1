@@ -1,3 +1,14 @@
 body{
-    background-color: beige;
+    background-color: #f4f7e6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 80px;
+    background-color: #69deff;
+    position:sticky;
 }
