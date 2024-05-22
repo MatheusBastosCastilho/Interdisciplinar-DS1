@@ -1,0 +1,28 @@
+body{
+    background-color: #f4f7e6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    border-bottom: solid 5px rgba(0,0,0,0.2);
+    height: 80px;
+    background-color: #69deff;
+    position:sticky;
+}
+
+#titulo{
+    color: #2176ae;
+    padding: 10px;
+    font-size: 50px;
+}
+
+#PI{
+    border-radius: 10px;
+    height: 100px;
+    margin: 10px;
+    background-color: #2176ae;
+}
