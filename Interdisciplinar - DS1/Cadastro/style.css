@@ -1,3 +1,4 @@
+/* interface do body */
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     color: #023047;
 }
 
+/* Interface da pagina */
 .page {
     display: flex;
     flex-direction: column;
@@ -15,7 +17,7 @@ body {
     height: 100vh;
     background-color: #69DEFF;
 }
-
+/* Interface do form */
 .formLogin {
     display: flex;
     flex-direction: column;
@@ -26,24 +28,24 @@ body {
     gap: 5px
 }
 
-.areaLogin img {
-    width: 420px;
-}
-
+/* Estilo do H1 */
 .formLogin h1 {
     padding: 0;
     margin: 0;
     font-weight: 500;
     font-size: 2.3em; 
+    text-align: center;
 }
-
+/* Cor do "p" */
 .formLogin p {
     display: inline-block;
     font-size: 14px;
     color: #666;
     margin-bottom: 25px;
+    margin: 0;
+    text-align: center;
 }
-
+/* Estilo da barra do input */
 .formLogin input {
     padding: 15px;
     font-size: 14px;
@@ -53,18 +55,16 @@ body {
     border-radius: 4px;
     transition: all linear 160ms;
     outline: none;
-}
+}   
 
-
+/* Quando clicar na barra de input fica com a borda verde */
 .formLogin input:focus {
     border: 1px solid #69FF82;
 }
 
-.formLogin label {
-    font-size: 14px;
-    font-weight: 600;
-}
 
+
+/* Interface do "a" */
 .formLogin a {
     display: inline-block;
     margin-bottom: 20px;
@@ -73,10 +73,8 @@ body {
     transition: all linear 160ms;
 }
 
-.formLogin a:hover {
-    color: #69FF82;
-}
 
+/* Estilo do botão*/
 .btn {
     background-color: #69FF82;
     color: #fff;
@@ -90,15 +88,4 @@ body {
 
 }
 
-.btn:hover {
-    transform: scale(1.05);
-    background-color: #69FF82;
 
-}
-h1{
-    text-align: center;
-}
-p{
-    text-align: center;
-    margin: 0;
-}
