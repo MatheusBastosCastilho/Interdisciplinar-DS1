@@ -82,7 +82,7 @@ p{
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
-    height: 500px;
+    height: 280px;
     width: 100%;
 }
 
@@ -93,18 +93,31 @@ p{
 }
 
 .final{
-    clear: both;
     float: left;
     font-size: 15px;
     color: #F4F7E6;
-    padding-right: 34%;
     text-align: center;
+    width: 100%;
+    height: 100px;
     
 }
 
 .final2{
-    clear: both;
     color: #F4F7E6;
-    font-size: 15pxpx;
+    font-size: 25px;
 
+}
+
+#ua{
+    padding-top: 10px;
+    padding-left: 15%;
+    display: inline;
+    float: left;
+}
+
+#rs{
+    padding-top: 10px;
+    padding-right: 20%;
+    display: inline;
+    float: right;
 }
