@@ -32,6 +32,18 @@ nav li {
     margin-right: 2%;
 }
 
+#s{
+    padding: 10px;
+}
+
+#c{
+    padding: 10px;
+}
+
+#cntt{
+    padding: 10px;
+}
+
 nav a {
     text-decoration: none;
     color: #F4F7E6;
@@ -49,6 +61,10 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     padding: 5%;
+}
+
+#links{
+
 }
 
 .inicio {
