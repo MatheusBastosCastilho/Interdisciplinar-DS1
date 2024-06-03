@@ -1,7 +1,7 @@
 /* Basic Styles */
 body {
     font-family: Arial, sans-serif;
-    font-size: 163%; /* 1em é equivalente a 16px */
+    font-size: 140%; /* 1em é equivalente a 16px */
     background-color: #F4F7E6;
     color: #333;
     margin: 0;
@@ -52,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #10a5e5;
+    color: #2176ae;
 }
 
 /* Main Section Styles */
@@ -106,12 +106,12 @@ nav a:hover {
 }
 
 .final2 a:hover {
-    color: #10a5e5;
+    color: #2176ae;
 }
 
 
 .final{
-    background-color: #10a5e5;
+    background-color: #2176ae;
     width: 100%;
     height: 300px;
     margin: 0%;
