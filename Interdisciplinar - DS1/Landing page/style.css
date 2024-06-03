@@ -1,7 +1,7 @@
 /* Basic Styles */
 body {
     font-family: Arial, sans-serif;
-    font-size: 26px; /* 1em é equivalente a 16px */
+    font-size: 163%; /* 1em é equivalente a 16px */
     background-color: #F4F7E6;
     color: #333;
     margin: 0;
@@ -32,7 +32,7 @@ nav li {
     margin-right: 2%;
 }
 
-#s{
+#l{
     padding: 10px;
 }
 
@@ -61,10 +61,6 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     padding: 5%;
-}
-
-#links{
-
 }
 
 .inicio {
