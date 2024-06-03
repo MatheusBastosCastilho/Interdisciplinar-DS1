@@ -1,9 +1,9 @@
 /* Basic Styles */
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1em; /* 1em é equivalente a 16px */
     background-color: #F4F7E6;
-    color:#F4F7E6;
+    color: #333;
     margin: 0;
     padding: 0;
 }
@@ -11,74 +11,92 @@ body {
 /* Header Styles */
 header {
     background-color: #2176ae;
-    padding: 20px;
+    padding: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo img {
-    height: 50px;
+    height: 50px; /* Mantendo o tamanho em pixels para garantir que o logo seja visível e adequado */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 nav li {
-    display: inline;
-    margin-right: 20px;
+    margin-right: 2%;
 }
 
 nav a {
     text-decoration: none;
     color: #F4F7E6;
+    font-weight: bold;
+    letter-spacing: 0.1em; /* Adiciona espaço entre as letras */
 }
 
-.inicio{
-    background-size: cover;
-    color: #F4F7E6;
-    text-align: center;
-    padding-top: 110px;
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 800px;
-    margin: 0;
+nav a:hover {
     color: #10a5e5;
-    float: left;
 }
 
-.inicio1{
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-    max-width: 800px;
-    margin: 0;
+/* Main Section Styles */
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.inicio {
     color: #2176ae;
-    float: left;
+    max-width: 50%;
+    padding-right: 5%;
 }
 
-#loja{
-    padding-top: 30px;
-    padding-right: 200px;
-    padding-bottom: 50px;
-    width: 300px;
-    float: right;
+.inicio h1 {
+    font-size: 2.5em;
+    margin-bottom: 2%;
 }
 
-#bi{
-    padding:0%;
-    border: 0%;
-    color: aquamarine ;
+.inicio p {
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 
-#mo{
-    padding:0%;
-    border: 0%;
-    color: aquamarine ;
+/* Image Styles */
+#loja {
+    max-width: 40%;
+    height: auto;
 }
+
+/* Final Section Styles */
+.final {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2176ae;
+    padding: 4% 2%;
+    color: #F4F7E6;
+}
+
+.final h1 {
+    font-size: 1.8em;
+    margin-bottom: 2%;
+}
+
+.final2 a {
+    color: #F4F7E6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.final2 a:hover {
+    color: #10a5e5;
+}
+
 
 .final{
     background-color: #10a5e5;
