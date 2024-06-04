@@ -81,10 +81,34 @@ nav a:hover {
 
 .meio{
     color: #2176ae;
-    max-width: 50%;
+    padding: 2%;
+}
+
+.meio h1{
+    font-size: 2.5em;
+    margin-bottom: 2%;
+}
+
+#venda{
+    margin-bottom: 2%;
     padding-right: 5%;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: end;
+    max-width: 100%;
+}
+
+.meio p{
+    font-size: 1.2em;
+    line-height: 1.5em;
+    /* display: flex; */
+    padding-left: 42%;
+    text-align: center;
+}
+
+
+#telavenda{
+    padding: 10%;
 }
 
 /* Image Styles */
