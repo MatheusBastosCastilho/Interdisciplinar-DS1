@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 138%; /* 1em é equivalente a 16px */
     background-color: #F4F7E6;
-    color: #333;
+    color: #2176ae;
     margin: 0;
     padding: 0;
 }
@@ -92,23 +92,42 @@ nav a:hover {
 #venda{
     margin-bottom: 2%;
     padding-right: 5%;
-    display: flex;
+    display: inline-block;
+    float: right;
     align-items: center;
     justify-content: end;
     max-width: 100%;
+    padding-top: 17%;
+    margin: 0%;
 }
 
 .meio p{
+    height: 30%;
     font-size: 1.2em;
     line-height: 1.5em;
-    /* display: flex; */
-    padding-left: 42%;
     text-align: center;
+    display: inline-block;
+    float: right;
+    padding-right: 14%;
+    flex: 1;
+    margin: 0%;
 }
 
+#texto1{}
+
+#imgcursos{
+    width: 10%;
+    height: 20%;
+}
+
+#freepick{
+    width: 10%;
+    height: 20%;
+}
 
 #telavenda{
-    padding: 10%;
+    padding-right: 40%;
+    padding-left: 10%;
 }
 
 /* Image Styles */
