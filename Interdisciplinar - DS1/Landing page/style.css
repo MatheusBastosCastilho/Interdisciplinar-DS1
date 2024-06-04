@@ -90,8 +90,8 @@ nav a:hover {
 }
 
 #venda{
-    margin-bottom: 2%;
-    padding-right: 5%;
+    /* margin-bottom: 2%;
+    padding-right: 5%; */
     display: inline-block;
     float: right;
     align-items: center;
@@ -101,9 +101,14 @@ nav a:hover {
     margin: 0%;
 }
 
+#telavenda{
+    padding-right: 40%;
+    padding-left: 10%;
+}
+
 .meio p{
     height: 30%;
-    font-size: 1.2em;
+    font-size: ;
     line-height: 1.5em;
     text-align: center;
     display: inline-block;
@@ -123,11 +128,6 @@ nav a:hover {
 #freepick{
     width: 10%;
     height: 20%;
-}
-
-#telavenda{
-    padding-right: 40%;
-    padding-left: 10%;
 }
 
 /* Image Styles */
