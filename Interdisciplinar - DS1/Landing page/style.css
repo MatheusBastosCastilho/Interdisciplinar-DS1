@@ -112,32 +112,32 @@ nav a:hover {
     margin: 0%;
 }
 
+.cursos {
+    display: inline-flex;
+    /* padding-top: 13%; */
+    justify-content: space-between;
+}
+
 .cursos h3{
     display: inline-block;
     clear: both;
-    margin-left: 10%;
+    margin-left: 17%;
     padding-top: 13%;
 }
-
-
 
 #imgcursos{
     padding-top: 5%;
     padding-right: 5%;
-    max-width: 30%;
-    height: auto;
+    width: 10%;
+    height: 20%;
     float: right;
-    background-color:#69DF1B ;
 }
 
 #freepick{
-    width: 16%;
-    height: auto;
+    width: 9%;
     float: left;
     padding-top: 5%;
-    padding-bottom: 40%;
     padding-left: 5%;
-    background-color: #69DF1B;
 }
 
 #telavenda{
