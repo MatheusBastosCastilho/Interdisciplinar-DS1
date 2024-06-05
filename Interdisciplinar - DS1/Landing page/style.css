@@ -1,4 +1,4 @@
-/* Basic Styles */
+/* estilo do body*/
 body {
     font-family: Arial, sans-serif;
     font-size: 138%; /* 1em é equivalente a 16px */
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Header Styles */
+/* Estilo do header*/
 header {
     background-color: #2176ae;
     padding: 2%;
@@ -18,7 +18,7 @@ header {
 }
 
 .logo img {
-    height: 50px; /* Mantendo o tamanho em pixels para garantir que o logo seja visível e adequado */
+    height: 50px; 
 }
 
 nav ul {
@@ -55,7 +55,6 @@ nav a:hover {
     color: #69DF1B;
 }
 
-/* Main Section Styles */
 .principal {
     display: flex;
     align-items: center;
@@ -116,7 +115,7 @@ nav a:hover {
 .cursos h3{
     display: inline-block;
     clear: both;
-    margin-left: 17%;
+    margin-left: 10%;
     padding-top: 13%;
 }
 
@@ -125,16 +124,20 @@ nav a:hover {
 #imgcursos{
     padding-top: 5%;
     padding-right: 5%;
-    width: 10%;
-    height: 20%;
+    max-width: 30%;
+    height: auto;
     float: right;
+    background-color:#69DF1B ;
 }
 
 #freepick{
-    width: 9%;
+    width: 16%;
+    height: auto;
     float: left;
     padding-top: 5%;
+    padding-bottom: 40%;
     padding-left: 5%;
+    background-color: #69DF1B;
 }
 
 #telavenda{
@@ -142,13 +145,11 @@ nav a:hover {
     padding-left: 10%;
 }
 
-/* Image Styles */
 #loja {
     max-width: 40%;
     height: auto;
 }
 
-/* Final Section Styles */
 .final {
     display: flex;
     justify-content: space-evenly; 
@@ -175,10 +176,10 @@ nav a:hover {
 
 #ua{
     text-align: center;
-    padding: 20px;
+    padding: 2%;
 }
 
 #rs{
     text-align: center;
-    padding: 20px;
+    padding: 2%;
 }
