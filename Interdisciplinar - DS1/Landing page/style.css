@@ -90,7 +90,7 @@ nav a:hover {
 }
 
 #venda{
-    margin-bottom: 2%;
+    margincenter-bottom: 2%;
     padding-right: 5%;
     display: inline-block;
     float: right;
@@ -114,15 +114,15 @@ nav a:hover {
 }
 
 .cursos h3{
-    display: inline-block;
+    display: inline-flex;
     clear: both;
-    margin-left: 17%;
-    padding-top: 13%;
+    justify-content: ;
 }
 
 
 
 #imgcursos{
+    display: inline;
     padding-top: 5%;
     padding-right: 5%;
     width: 10%;
@@ -131,8 +131,9 @@ nav a:hover {
 }
 
 #freepick{
-    width: 9%;
     float: left;
+    display: inline;
+    width: 9%;
     padding-top: 5%;
     padding-left: 5%;
 }
