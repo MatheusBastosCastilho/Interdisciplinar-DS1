@@ -90,8 +90,8 @@ nav a:hover {
 }
 
 #venda{
-    /* margin-bottom: 2%;
-    padding-right: 5%; */
+    margin-bottom: 2%;
+    padding-right: 5%;
     display: inline-block;
     float: right;
     align-items: center;
@@ -101,14 +101,9 @@ nav a:hover {
     margin: 0%;
 }
 
-#telavenda{
-    padding-right: 40%;
-    padding-left: 10%;
-}
-
 .meio p{
     height: 30%;
-    font-size: ;
+    font-size: 1.2em;
     line-height: 1.5em;
     text-align: center;
     display: inline-block;
@@ -139,7 +134,12 @@ nav a:hover {
     width: 9%;
     float: left;
     padding-top: 5%;
-    padding-left: 3%;
+    padding-left: 5%;
+}
+
+#telavenda{
+    padding-right: 40%;
+    padding-left: 10%;
 }
 
 /* Image Styles */
