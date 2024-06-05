@@ -117,12 +117,18 @@ nav a:hover {
     /* padding-top: 13%; */
     justify-content: space-between;
 }
-
 .cursos h3{
-    display: inline-block;
+    position:absolute ;
+    padding-left: 30% ;
+    padding-top: 6%;
+    /* background-color: #69DF1B; */
+}
+.cursos p{
+    
     clear: both;
-    margin-left: 17%;
-    padding-top: 13%;
+    padding-top:11% ;
+    
+    /* background-color: #69DF1B; */
 }
 
 #imgcursos{
@@ -135,6 +141,7 @@ nav a:hover {
 
 #freepick{
     width: 9%;
+    height: 20%;
     float: left;
     padding-top: 5%;
     padding-left: 5%;
