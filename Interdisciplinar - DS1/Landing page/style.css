@@ -7,8 +7,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
-/* Estilo do header*/
 header {
     background-color: #2176ae;
     padding: 2%;
@@ -17,38 +15,30 @@ header {
     align-items: center;
 }
 
-.logo img {
+.logo img{
     height: 50px; 
 }
 
-nav ul {
+#links{
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+    li {
+        margin-right: 2%;
+    }
 }
 
-nav li {
-    margin-right: 2%;
-}
-
-#l{
+.outras_paginas{
     padding: 10px;
-}
-
-#c{
-    padding: 10px;
-}
-
-#cntt{
-    padding: 10px;
+    
 }
 
 nav a {
     text-decoration: none;
     color: #F4F7E6;
     font-weight: bold;
-    letter-spacing: 0.1em; /* Adiciona espaço entre as letras */
+    letter-spacing: 0.1em; 
 }
 
 nav a:hover {
@@ -59,94 +49,59 @@ nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 3%;
+    inicio {
+        color: #2176ae;
+        max-width: 50%;
+        padding-right: 5%;
+        inicio h1 {
+            font-size: 2.5em;
+            margin-bottom: 2%;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+        }
+    }
 }
 
-.inicio {
-    color: #2176ae;
-    max-width: 50%;
-    padding-right: 5%;
-}
-
-.inicio h1 {
-    font-size: 2.5em;
-    margin-bottom: 2%;
-}
-
-.inicio p {
-    font-size: 1.2em;
-    line-height: 1.5em;
+#loja {
+    max-width: 40%;
+    height: auto;
 }
 
 .meio{
     color: #2176ae;
     padding: 2%;
-}
-
-.meio h1{
-    font-size: 2.5em;
-    margin-bottom: 2%;
-}
-
-#venda{
-    margin-bottom: 2%;
-    padding-right: 5%;
-    display: inline-block;
-    float: right;
-    align-items: center;
-    justify-content: end;
-    max-width: 100%;
-    padding-top: 17%;
-    margin: 0%;
-}
-
-.meio p{
-    height: 30%;
-    font-size: 1.2em;
-    line-height: 1.5em;
-    text-align: center;
-    display: inline-block;
-    float: right;
-    padding-right: 14%;
-    flex: 1;
-    margin: 0%;
-}
-
-.cursos {
-    display: inline-flex;
-    /* padding-top: 13%; */
-    justify-content: space-between;
-}
-.cursos h3{
-    position:absolute ;
-    padding-left: 30% ;
-    padding-top: 6%;
-    /* background-color: #69DF1B; */
-}
-.cursos p{
-    
-    clear: both;
-    padding-top:11% ;
-    padding-left: 6%;
-    padding-right: 6%;
-    
-    /* background-color: #69DF1B; */
-}
-
-#imgcursos{
-    padding-top: 5%;
-    padding-right: 5%;
-    width: 10%;
-    height: 20%;
-    float: right;
-}
-
-#freepick{
-    width: 9%;
-    height: 20%;
-    float: left;
-    padding-top: 5%;
-    padding-left: 5%;
+    h1{
+        font-size: 2.5em;
+        margin-bottom: 2%;
+    }
+    p{
+        height: 30%;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        text-align: center;
+        display: inline-block;
+        float: right;
+        padding-right: 14%;
+        flex: 1;
+        margin: 0%;
+    }
+    #venda{
+        margin-bottom: 2%;
+        padding-right: 5%;
+        display: inline-block;
+        float: right;
+        align-items: center;
+        justify-content: end;
+        max-width: 100%;
+        padding-top: 17%;
+        margin: 0%;
+    }
 }
 
 #telavenda{
@@ -154,9 +109,38 @@ nav a:hover {
     padding-left: 10%;
 }
 
-#loja {
-    max-width: 40%;
-    height: auto;
+.cursos {
+    display: inline-flex;
+    justify-content: space-between;
+    h3{
+        position:absolute ;
+        padding-left: 30% ;
+        padding-top: 6%;
+    }
+    p{
+
+        clear: both;
+        padding-top:11% ;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+}
+
+#imgcursos{
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    width: 40%;
+    height: 40%;
+    float: right;
+}
+
+#freepick{
+    width: 20%;
+    height: 40%;
+    float: left;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 .final {
@@ -166,21 +150,18 @@ nav a:hover {
     padding: 0%;
     color: #F4F7E6;
     width: 100%;
-}
-
-.final h1 {
-    font-size: 1.8em;
-    margin-bottom: 2%;
-}
-
-.final2 a {
-    color: #F4F7E6;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.final2 a:hover {
-    color: #69DF1B;
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 2%;
+    }
+    a {
+        color: #F4F7E6;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover {
+        color: #69DF1B;
+    }    
 }
 
 #ua{
@@ -190,5 +171,5 @@ nav a:hover {
 
 #rs{
     text-align: center;
-    padding: 2%;
+    padding: 2%;
 }
