@@ -114,17 +114,11 @@ nav a:hover {
     display: inline-flex;
     justify-content: space-between;
 }
-
 .cursos h3{
-    padding-top: 8%;
-    padding-right: 2%;
-}
-.cursos p{
-    padding-top: 20%;
-    text-align: center;
     display: inline-block;
-    padding-right: 20%;
-    background-color: #69DF1B;
+    clear: both;
+    margin-left: 17%;
+    padding-top: 13%;
 }
 
 #imgcursos{
@@ -135,11 +129,10 @@ nav a:hover {
 }
 
 #freepick{
-    display: inline-flex;
-    padding-left: 3%;
-    max-width: 16%;
-    height: auto;
-    margin-left: 4%;
+    width: 9%;
+    float: left;
+    padding-top: 5%;
+    padding-left: 5%;
 }
 
 #telavenda{
