@@ -32,7 +32,6 @@ header {
 
 .outras_paginas{
     padding: 10px;
-    
 }
 
 nav a {
@@ -72,11 +71,11 @@ nav a:hover {
 #loja {
     max-width: 40%;
     height: auto;
+    margin-left: 110px;
 }
 
 .meio{
     color: #2176ae;
-    padding: 2%;
     h1{
         font-size: 2.5em;
         margin-bottom: 2%;
@@ -110,40 +109,36 @@ nav a:hover {
     padding-left: 10%;
 }
 
-.cursos {
-    display: inline-flex;
-    justify-content: space-between;
-}
-.cursos h3{
-    position:absolute ;
-    padding-left: 30% ;
-    padding-top: 6%;
-    /* background-color: #69DF1B; */
-}
-.cursos p{
-    
-    clear: both;
-    padding-top:11% ;
-    padding-left: 6%;
-    padding-right: 6%;
-    
-    /* background-color: #69DF1B; */
+#imgTV{
+    height: 60%;
+    width: 45%;
 }
 
-#imgcursos{
-    padding-top: 5%;
+.cursos {
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    padding-left: 5%;
     padding-right: 5%;
-    width: 10%;
-    height: 20%;
-    float: right;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        clear: both;
+        padding-top:11% ;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+} 
+
+#imgcursos{    
+    height: 10%x;
+    width: 25%;
 }
 
 #freepick{
-    width: 9%;
-    height: 20%;
-    float: left;
-    padding-top: 5%;
-    padding-left: 5%;
+    width: 22%;
+    height: 10%;
 }
 
 #telavenda{
