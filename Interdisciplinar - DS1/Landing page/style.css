@@ -72,59 +72,86 @@ nav a:hover {
     margin-left: 10%;
 }
 
-.meio{
-    color: #2176ae;
+.meio{color: #F4F7E6;
+    background-color: #2176ae;
     display: flex;
-    padding: 5%;
     justify-content: space-between;
-    align-items: center;  
-    padding: 0% 5% 0% 5%;
-    /* h1{
-        font-size: 2.5em;
-        margin-bottom: 2%;
-    }
-    p{
-        height: 30%;
-        font-size: 1.2em;
-        line-height: 1.5em;
-        text-align: center;
-        display: inline-block;
-        padding-right: 14%;
-        flex: 1;
-        margin: 0%;
-    }
-    #venda{
-        margin-bottom: 2%;
-        padding-right: 5%;
-        display: inline-block;
-        float: right;
-        align-items: center;
-        justify-content: end;
-        max-width: 100%;
-        padding-top: 17%;
-        margin: 0%;
-    } */
+    align-items: center; 
+    padding: 0% 10% 0% 10%;
 }
 
 #textos{
-    
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    padding-right: 8%;
 }
 
 #imgTV{    
-    height: 40%;
-    width: 25%;
+    height: 75%;
+    width: 28%;
+}
+
+#servicos{
+    padding: 0% 10% 0% 0%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    #infos{
+        padding-top: 15%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #69DF1B;
+        width: 63%;
+        justify-content: center;
+        border: 8px solid #2176ae;
+        border-top-right-radius: 49%;
+        border-bottom-right-radius: 49%;
+    }
+    #imgServicos{
+        width: 23%;
+        height: 90%;
+    }
+}
+
+#feed{
+    justify-content: center;
+    margin: 100px;
+}
+
+#esquerda{
+    float: inline;
+    color: #F4F7E6;
+    border: 6px solid #69DF1B;
+    background-color: #2176ae;
+    padding: 5%;
+    width: 28%;
+    height: 70%;
+}
+
+#direita{
+    float: right;
+    color: #F4F7E6;
+    border: 6px solid #2176ae;
+    background-color: #69DF1B;
+    padding: 5%;
+    width: 28%;
+    height: 70%;
+}
+
+#imgFeed{
+    width: 23%;
+    height: 90%;
 }
 
 .cursos {
     text-align: center;
     width: 90%;
     height: 100%;
-    /* padding-left: 5%;
-    padding-right: 5%; */
     padding: 2% 5% 2% 5%;
-    display: inline-flex;
     justify-content: space-between;
+    display: inline-flex;
     align-items: center;
     p{
         clear: both;
