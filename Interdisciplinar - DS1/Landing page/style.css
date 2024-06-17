@@ -77,23 +77,21 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    padding: 0% 10% 0% 10%;
+    padding: 1.5% 10% 1.5% 10%;
+    #textos{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 8%;
+    }
+    #imgTV{    
+        width: 26%;
+    }
 }
 
-#textos{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-right: 8%;
-}
-
-#imgTV{    
-    height: 75%;
-    width: 28%;
-}
 
 #servicos{
-    padding: 0% 10% 0% 0%;
+    padding: 0% 10% 2% 0%;
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
@@ -106,6 +104,7 @@ nav a:hover {
         width: 63%;
         justify-content: center;
         border: 8px solid #2176ae;
+        margin-left: -1%;
         border-top-right-radius: 49%;
         border-bottom-right-radius: 49%;
     }
@@ -115,35 +114,29 @@ nav a:hover {
     }
 }
 
-#feed{
-    justify-content: center;
-    margin: 100px;
-}
-
-#esquerda{
-    float: inline;
-    color: #F4F7E6;
-    border: 6px solid #69DF1B;
+#feedB{
+    display: flex;
     background-color: #2176ae;
-    padding: 5%;
-    width: 28%;
-    height: 70%;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;
+    #textosFeed{
+        text-align: center;
+        color: #F4F7E6;
+        width: 50%;
+        margin: 5%;
+    }
+    #divFeed{
+        background-color: #F4F7E6;
+        width: 50%;
+        text-align: center;
+    }
+    #imgFeed{
+        width: 50%;
+    }
 }
 
-#direita{
-    float: right;
-    color: #F4F7E6;
-    border: 6px solid #2176ae;
-    background-color: #69DF1B;
-    padding: 5%;
-    width: 28%;
-    height: 70%;
-}
 
-#imgFeed{
-    width: 23%;
-    height: 90%;
-}
 
 .cursos {
     text-align: center;
@@ -153,30 +146,15 @@ nav a:hover {
     justify-content: space-between;
     display: inline-flex;
     align-items: center;
-    p{
-        clear: both;
-        padding-top:11% ;
-        padding-left: 6%;
-        padding-right: 6%;
+    #imgcursos{    
+        height: 10%;
+        width: 25%;
+    }
+    #freepick{
+        width: 22%;
+        height: 10%;
     }
 } 
-
-#imgcursos{    
-    height: 10%;
-    width: 25%;
-}
-
-#freepick{
-    width: 22%;
-    height: 10%;
-}
-
-
-
-#loja {
-    max-width: 40%;
-    height: auto;
-}
 
 .final {
     display: flex;
@@ -197,14 +175,14 @@ nav a:hover {
     a:hover {
         color: #69DF1B;
     }    
+    #ua{
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #rs{
+        text-align: center;
+        padding: 20px;
+    }
 }
 
-#ua{
-    text-align: center;
-    padding: 20px;
-}
-
-#rs{
-    text-align: center;
-    padding: 20px;
-}
