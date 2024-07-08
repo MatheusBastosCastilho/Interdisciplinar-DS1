@@ -4,6 +4,59 @@ body {
     margin: 0;
     padding: 0;
     color: #023047;
+    background-color: #F4F7E6;
+}
+
+header {
+    background-color: #2176ae;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    #seta{
+        padding-right: 72%;
+        font-size: 100%;
+        background-color:#2176ae;
+        border: #2176ae 2px solid;
+    }
+}
+
+.logo img {
+    height: 50px; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 2%;
+}
+
+#l{
+    padding: 10px;
+}
+
+#c{
+    padding: 10px;
+}
+
+#cntt{
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F4F7E6;
+    font-weight: bold;
+    letter-spacing: 0.1em; /* Adiciona espaço entre as letras */
+}
+
+nav a:hover {
+    color: #69DF1B;
 }
 
 /* Interface da pagina */
@@ -14,18 +67,28 @@ body {
     align-content: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
-    background-color: #10a5e5;
+    height: 100%;
+    background-color: #F4F7E6;
+    margin: 0;
 }
 /* Interface do form */
 .formLogin {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff ;
+    background-color: #F4F7E6;
     border-radius: 1%;
-    padding: 3%;
-    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    padding: 0% 3% 2% 3%;
+    /* box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4); */
     gap: 5px
+}
+
+#seta{
+    font-size: 300%;
+    width: 100%;
+    text-align: start;
+    background-color: #F4F7E6;
+    margin: 0;
+    display: inline-flex;
 }
 
 /* Estilo do H1 */
@@ -40,11 +103,9 @@ body {
 /* Cor do "p" */
 .formLogin p {
     display: inline-block;
-    font-size: 87.5%
-    ;
-    color: #666;
-    margin-bottom: 25px;
+    font-size: 250%;
     margin: 0;
+    padding-bottom: 3%;
     text-align: center;
 }
 /* Estilo da barra do input */
@@ -90,4 +151,34 @@ body {
 
 }
 
+
+.final {
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: #2176ae;
+    padding: 0%;
+    color: #F4F7E6;
+    width: 100%;
+    h1 {
+        font-size: 1.8em;
+        margin-bottom: 2%;
+    }
+    a {
+        color: #F4F7E6;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover {
+        color: #69DF1B;
+    }    
+    #ua{
+        text-align: center;
+        padding: 20px;
+    }
+    
+    #rs{
+        text-align: center;
+        padding: 20px;
+    }
+}
 
