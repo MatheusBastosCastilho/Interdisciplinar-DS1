@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="shortcut icon" href="../Component 1 (1).png" type="image/x-icon">
+    <title>BiMO</title>
+    <link rel="shortcut icon" href="../Icon logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -22,26 +22,36 @@
     </header>
 
     <div class="page">
+        <a href="../Cadastro/index.html" id="seta">⬅️</a>
         <form method="get" class="formLogin">
-            <h1>Cadastro Empresarial</h1>
             <p>Dados Empresariais</p>
-            
             <label for="email">E-mail</label>
             <input type="email" name="email" id="email" placeholder="Ex: Josesilva@gmail.com" required>
             <label for="CPF">CPF</label>
-            <input type="tel" name="" id="fcpf" maxlength="11">
+            <input type="tel" name="fcpf" id="fcpf" maxlength="11" placeholder="XXX.XXX.XXX-XX" required>
             <label for="CNPJ">CNPJ</label>
-            <input type="tel" name="fcnpj" id="fcnpj" maxlength="14">
+            <input type="tel" name="fcnpj" id="fcnpj" maxlength="14" placeholder="XX.XXX.XXX/XXXX-XX" required>
             <label for="senha">Senha</label>
-            <input type="password" name="fsenha" id="fsenha" minlength="8"required >
+            <input type="password" name="fsenha" id="fsenha" minlength="8" placeholder="Digite sua senha" required >
             <label for="confsenha">Confirme sua Senha</label>
-            <input type="password" name="fconfsenha" id="fconfsenha" minlength="8" required > 
-            <a href="login.html">Fazer login</a>
-            <a href="index.html">Voltar à pagina anterior</a>
+            <input type="password" name="fconfsenha" id="fconfsenha" minlength="8" placeholder="Digite novamente sua senha" required > 
             <a href="../Landing page/index.html"><input type="button"  value="Cadastrar" class="btn" /></a>
             
         </form>
     </div>
+
+    <div class="final">
+        <div id="ua">
+            <h2>Comece a usar o BiMO!</h2>
+            <p class="final2"><a href="../Cadastro/login.html">Login</a></p>
+        </div>
+        <div id="rs">
+            <h2>Redes Sociais</h2>
+            <p class="final2"><a href="https://www.instagram.com/business_market_outlet/" target="_blank">Instagram</a></p>
+            <p class="final2"><a href="mailto:isadorajardim3003@gmail.com">E-mail</a></p>
+        </div>
+    </div>
+
     
 </body>
 </html>
