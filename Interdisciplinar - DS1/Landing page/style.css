@@ -116,7 +116,6 @@ nav a:hover {
 #divFeed1{
     display: flex;
     justify-content: flex-end;
-    /* justify-content: space-between; */
     padding: 0%;
     margin: 0%;
     #divFeed{
@@ -129,24 +128,22 @@ nav a:hover {
     background-color: #2176ae;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 60%;
     padding: 0%;
     margin: 0%;
-    border:8px solid #69DF1B;
     margin-right: -1%;
-    border-top-left-radius: 49%;
-    border-bottom-left-radius: 49%;
     #textosFeed{
         text-align: center;
         color: #F4F7E6;
-        width: 50%;
+        width: 60%;
         margin: 5%;
-    }
-    #imgFeed{
-        width: 50%;
     }
 }
 
+#imgFeed{
+    width: 22%;
+    padding-right: 9%;
+}
 
 
 .cursos {
