@@ -96,17 +96,17 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     #infos{
+        padding: 10%;
         padding-top: 15%;
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: #69DF1B;
-        width: 63%;
+        color: #F4F7E6;
+        background-color: #2176ae;
+        width: 45%;
         justify-content: center;
-        border: 8px solid #2176ae;
+        border: 8px solid #69DF1B;
         margin-left: -1%;
-        border-top-right-radius: 49%;
-        border-bottom-right-radius: 49%;
     }
     #imgServicos{
         width: 23%;
@@ -131,7 +131,9 @@ nav a:hover {
     width: 60%;
     padding: 0%;
     margin: 0%;
-    margin-right: -1%;
+    border-top-left-radius: 49%;
+    border-bottom-left-radius: 49%;
+    margin-left: -1%;
     #textosFeed{
         text-align: center;
         color: #F4F7E6;
