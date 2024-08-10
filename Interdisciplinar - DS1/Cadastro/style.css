@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    font-size: 158%;
 }
 
 .logo img {
@@ -48,10 +48,13 @@ nav a {
     color: #F4F7E6;
     font-weight: bold;
     letter-spacing: 0.1em; /* Adiciona espaço entre as letras */
+    transition: 0.3s;
 }
 
 nav a:hover {
     color: #69DF1B;
+    font-size: 160%;
+    transition: 0.3s;
 }
 
 /* Interface da pagina */
@@ -145,7 +148,18 @@ nav a:hover {
     width: 800px;
     cursor: pointer;
     margin: 0 ;
-
+}
+.btn:hover{
+    background-color: #2176ae;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none ;
+    transition: all linear 160ms;
+    width: 800px;
+    cursor: pointer;
+    margin: 0 ; 
+    transition: 0.5s;
 }
 
 
@@ -164,9 +178,12 @@ nav a:hover {
         color: #F4F7E6;
         text-decoration: none;
         font-weight: bold;
+        transition: 0.3s;
     }
     a:hover {
         color: #69DF1B;
+        font-size: 168%;
+        transition: 0.3s;
     }    
     #ua{
         text-align: center;
