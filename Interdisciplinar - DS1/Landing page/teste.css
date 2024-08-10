@@ -136,8 +136,8 @@ h1{
             background-color: #2176ae;
             border: #69DF1B solid 10px;
             justify-content: center;
-            border-top-right-radius: 800px ;
-            border-bottom-right-radius: 800px;
+            border-top-right-radius: 600px ;
+            border-bottom-right-radius: 600px;
             
             #txt{
                 padding: 4%;
@@ -160,7 +160,6 @@ h1{
         position: relative;
         /* padding: 0% 10% 2% 0%; */
         /* padding-right:5% ; */
-        margin-top: 2%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -169,8 +168,7 @@ h1{
         width: 100%;
         height: 100%;
         #infos{
-            display: inline;
-            transition: 0.3s;
+            height: 200px;
             padding: 10%;
             justify-content: center;
             align-items: center;
@@ -181,11 +179,10 @@ h1{
             justify-content: center;
             border-top-right-radius: 600px ;
             border-bottom-right-radius: 600px;
-            
+            padding-top: 0% ;
             #txt{
                 padding: 4%;
                 font-size: 100%;
-                align-items: center;
             } 
             
         }
@@ -260,7 +257,7 @@ h1{
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: 0%;
+        height: 400px;
         padding: 0%;
         margin: 0%;
         border-top-right-radius: 600px;
@@ -277,23 +274,66 @@ h1{
     }
 }
 .cursos {
-    text-align: center;
-    width: 90%;
-    height: 100%;
-    padding: 2% 5% 2% 5%;
-    justify-content: space-between;
-    display: inline-flex;
-    align-items: center;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        right: 50px;
+        transition: 0.3s;
+        width: 100%;
+        height: 100%;
+        right: 500px;
+    #txtCurso{
+        height: 200px;
+        padding: 10%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #F4F7E6;
+        background-color: #2176ae;
+        border: #69DF1B solid 10px;
+        justify-content: center;
+        border-top-right-radius: 600px ;
+        border-bottom-right-radius: 600px;
+        padding-top: 0% ;
+    }
     #imgcursos{    
-        height: 10%;
-        width: 25%;
-    }
-    #freepick{
-        width: 22%;
-        height: 10%;
-    }
+    padding-left: 5% ;
+    width: 23%;
+    height: 70%;
+    padding-top: 3%;
+}
 } 
-
+.cursos:hover{
+    color: #F4F7E6;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    width: 100%;
+    height: 100%;
+    right:30px;
+#txtCurso{
+    height: 200px;
+    padding: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F4F7E6;
+    background-color: #2176ae;
+    border: #69DF1B solid 10px;
+    justify-content: center;
+    border-top-right-radius: 600px ;
+    border-bottom-right-radius: 600px;
+    padding-top: 0% ;
+}
+#imgcursos{    
+padding-left: 5% ;
+width: 23%;
+height: 70%;
+padding-top: 3%;
+}
+}
 .final {
     display: flex;
     justify-content: space-evenly; 
