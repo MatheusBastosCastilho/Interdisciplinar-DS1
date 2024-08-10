@@ -69,7 +69,7 @@ nav a:hover {
         border-bottom-right-radius: 800px;
         
     }
-    #txtPrincipal h2{
+    h2{
         font-size:236% ;
     }
 }
@@ -77,9 +77,9 @@ h1{
     position: relative;
     left: 4%;
     font-size: 400%;
-    border: #69DF1B solid 2px;
 }
 .principal:hover{
+    color: #F4F7E6;
     position: relative;
     padding: 30px;
     display: flex;
@@ -93,8 +93,8 @@ h1{
         /* align-items: center; */
         padding-top: 50px;
         padding-left: 2%;
-        border-top-right-radius:60%;
-        border-bottom-right-radius: 60%;
+        border-top-right-radius:800px;
+        border-bottom-right-radius: 800px;
         
     }
 }
@@ -112,7 +112,7 @@ h1{
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 4%;
+        padding: 4%;    
         font-size: 150%;
         border: #F4F7E6 dashed 10px;
     }
@@ -134,8 +134,8 @@ h1{
             text-align: center;
             color: #F4F7E6;
             background-color: #2176ae;
+            border: #69DF1B solid 10px;
             justify-content: center;
-            border: 5px solid #69DF1B;
             border-top-right-radius: 800px ;
             border-bottom-right-radius: 800px;
             
@@ -156,16 +156,20 @@ h1{
     }
 
     #servicos:hover{
-        
+        color: #F4F7E6;
         position: relative;
         /* padding: 0% 10% 2% 0%; */
         /* padding-right:5% ; */
         margin-top: 2%;
         display: flex;
         justify-content: space-between;
-        right: 5px;
+        align-items: center;
+        right: 50px;
         transition: 0.3s;
+        width: 100%;
+        height: 100%;
         #infos{
+            display: inline;
             transition: 0.3s;
             padding: 10%;
             justify-content: center;
@@ -173,15 +177,14 @@ h1{
             text-align: center;
             color: #F4F7E6;
             background-color: #2176ae;
+            border: #69DF1B solid 10px;
             justify-content: center;
-            border: 5px solid #69DF1B;
-            border-top-right-radius: 800px ;
-            border-bottom-right-radius: 800px;
+            border-top-right-radius: 600px ;
+            border-bottom-right-radius: 600px;
             
             #txt{
                 padding: 4%;
-                /* border: #F4F7E6 dashed 10px; */
-                font-size: 130%;
+                font-size: 100%;
                 align-items: center;
             } 
             
@@ -197,29 +200,30 @@ h1{
 }
 #divFeed1{
     position: relative;
-    right: 600px;
+    right: 590px;
     display: flex;
     justify-content: flex-end;
     padding: 0%;
     margin: 0%;
-    padding-right: 5%;
+    padding-right: 3%;
+    align-items: center;
     transition: 0.3s;
     #divFeed{
-        width: 50%;
+        /* width: 50%; */
         text-align: center;
     }
     #feedB{
         display: flex;
-        background-color: #2176ae;
+        background-color: #69DF1B;
+        border: #2176ae solid 10px;
         align-items: center;
         justify-content: center;
-        width: 60%;
+        width: 100%;
+        height: 10%;
         padding: 0%;
         margin: 0%;
         border-top-right-radius: 600px;
         border-bottom-right-radius: 600px;
-        margin-left: -1%;
-        border: #69DF1B solid 5px;
         #textosFeed{
             text-align: center;
             color: #F4F7E6;
@@ -231,34 +235,38 @@ h1{
 }
 
 #imgFeed{
-    width: 22%;
-    padding-left: 9%;
+    padding-left: 6%;
+    width: 23%;
+    height: 70%;
+    padding-top: 3%;
 }
 
 #divFeed1:hover{
+    color: #F4F7E6;
     position: relative;
+    padding: 30px;
     display: flex;
-    justify-content: flex-end;
-    padding: 0%;
-    margin: 0%;
-    right: 0px;
-    transition: 0.3s;
+    right:50px;
+    transition: 0.4s;
+    align-items: center;
     #divFeed{
         width: 30%;
         text-align: center;
     }
     #feedB{
         display: flex;
-        background-color: #2176ae;
+        background-color: #69DF1B;
+        border: #2176ae solid 10px;
         align-items: center;
         justify-content: center;
-        width: 60%;
+        width: 100%;
+        height: 0%;
         padding: 0%;
         margin: 0%;
         border-top-right-radius: 600px;
         border-bottom-right-radius: 600px;
-        margin-left: -1%;
-        border: #69DF1B solid 5px;
+        
+        
         #textosFeed{
             text-align: center;
             color: #F4F7E6;
