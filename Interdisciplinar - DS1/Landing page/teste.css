@@ -126,10 +126,10 @@ h1{
         display: flex;
         justify-content: space-between;
         right: 600px;
-        transition: 0.7s;
+        transition: 3s;
         #infos{
             padding: 10%;
-            /* padding-top: 15%; */
+            padding-top: 15%;
             justify-content: center;
             align-items: center;
             text-align: center;
@@ -157,7 +157,9 @@ h1{
         padding-top: 3%;
     }
     }
+
     #servicos:hover{
+        transition: 0.7s;
         
         position: relative;
         padding: 0% 10% 2% 0%;
@@ -166,7 +168,6 @@ h1{
         display: flex;
         justify-content: space-between;
         left: 10px;
-        transition: 0.7s;
         #infos{
             padding: 10%;
             justify-content: center;
