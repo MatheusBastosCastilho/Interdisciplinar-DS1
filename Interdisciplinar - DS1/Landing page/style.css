@@ -1,19 +1,28 @@
+*{
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    font-size: 138%; /* 1em é equivalente a 16px */
+    font-size: 138%;
     background-color: #F4F7E6;
     color: #2176ae;
     margin: 0;
     padding: 0;
 }
 
-/* Estilo do header*/
 header {
     background-color: #2176ae;
     padding: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+h1{
+    position: relative;
+    left: 4%;
+    font-size: 400%;
 }
 
 .logo img{
@@ -25,9 +34,6 @@ header {
     margin: 0;
     padding: 0;
     display: flex;
-    li {
-        margin-right: 2%;
-    }
 }
 
 .outras_paginas{
@@ -48,128 +54,242 @@ nav a:hover {
     transition: 0.3s;
 }
 
-.principal {
+.principal{
+    position: relative;
+    padding: 30px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5%;
-    padding-right: 3%;
-    inicio {
-        color: #2176ae;
-        max-width: 50%;
-        padding-right: 5%;
-        inicio h1 {
-            font-size: 2.5em;
-            margin-bottom: 2%;
-        }
-        p {
-            font-size: 1.2em;
-            line-height: 1.5em;
-        }
-    }
+    right: 575px;
+    transition: 0.3s;
 }
 
-#loja {
-    max-width: 40%;
-    height: auto;
-    margin-left: 10%;
+.principal #imgPrincipal{
+    padding-left: 7%;
 }
 
-.meio{color: #F4F7E6;
+.principal #txtPrincipal{
+    position: relative;
+    border: #2176ae solid 10px;
+    background-color:#69DF1B;
+    padding-top: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 800px;
+    
+}
+
+.principal h2{
+    font-size:236% ;
+}
+
+.principal:hover{
+    color: #F4F7E6;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    right:50px;
+    transition: 0.4s;
+}
+
+.principal:hover #txtPrincipal{
+    position: relative;
+    border: #2176ae solid 10px;
+    background-color:#69DF1B;
+    padding-top: 50px;
+    padding-left: 2%;
+    border-top-right-radius:800px;
+    border-bottom-right-radius: 800px;
+    
+}
+
+.Produto{
+    color: #F4F7E6;
     background-color: #2176ae;
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 1.5% 10% 1.5% 10%;
-    #textos{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-right: 8%;
-        
-    }
-    #imgTV{    
-        width: 26%;
-    }
+    align-items: center;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left: 3%;
+    border-top: #69DF1B dashed 10px;
+    border-bottom:#69DF1B dashed 10px ;
 }
 
+.Produto #texto{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4%;   
+    margin-left: 9%; 
+    font-size: 150%;
+    border: #F4F7E6 dashed 10px;
+}
 
 #servicos{
-    padding: 0% 10% 2% 0%;
-    margin-top: 2%;
-    display: flex;
-    justify-content: space-between;
-    #infos{
-        padding: 10%;
-        padding-top: 15%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: #F4F7E6;
-        background-color: #2176ae;
-        width: 45%;
-        justify-content: center;
-        border: 8px solid #69DF1B;
-        margin-left: -1%;
-    }
-    #imgServicos{
-        width: 23%;
-        height: 90%;
-    }
-}
-#divFeed1{
-    display: flex;
-    justify-content: flex-end;
-    padding: 0%;
-    margin: 0%;
-    #divFeed{
-        width: 50%;
-        text-align: center;
-    }
-}
-#feedB{
-    display: flex;
-    background-color: #2176ae;
+    position: relative;
     align-items: center;
-    justify-content: center;
-    width: 60%;
-    padding: 0%;
-    margin: 0%;
-    border-top-left-radius: 49%;
-    border-bottom-left-radius: 49%;
-    margin-left: -1%;
-    #textosFeed{
-        text-align: center;
-        color: #F4F7E6;
-        width: 60%;
-        margin: 5%;
-    }
+    padding: 50px;
+    display: flex;
+    right: 575px;
+    transition: 0.3s;
 }
 
-#imgFeed{
-    width: 22%;
-    padding-right: 9%;
+#servicos #txt{
+    padding: 4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border: #69DF1B solid 10px;
+    background-color:#2176ae;
+    padding-top: 50px;
+    padding-left: 2%;
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 800px;
+}
+
+#servicos #imgServicos{
+    padding-left: 16%;
+    width: 23%;
+    height: 70%;
+    padding-top: 3%;
+}
+
+#servicos:hover{
+    color: #F4F7E6;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    right:50px;
+    transition: 0.4s;
+}
+
+#servicos:hover #txt{
+    position: relative;
+    border: #69DF1B solid 10px;
+    background-color:#2176ae;
+    /* text-align:start; */
+    /* align-items: center; */
+    padding-top: 50px;
+    padding-left: 2%;
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 800px;
+}
+
+#servicos:hover #imgServicos{
+    padding-left: 5%;
+    width: 23%;
+    height: 70%;
+    padding-top: 3%;
+}
+
+#divFeed1{
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    right: 575px;
+    transition: 0.3s;
+}
+
+#divFeed1 #textosFeed{
+    padding: 4%;
+    padding-top: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border: #2176ae solid 10px;
+    background-color:#69DF1B;
+    padding-top: 50px;
+    padding-left: 2%;
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 800px;
+}
+
+#divFeed1 #imgFeed{
+    padding-left: 5%;
+    width: 23%;
+    height: 70%;
+    padding-top: 3%;
+}
+
+#divFeed1:hover{
+    color: #F4F7E6;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    right:50px;
+    transition: 0.4s;
+}
+
+#divFeed1:hover #textosFeed{
+    position: relative;
+    border: #2176ae solid 10px;
+    background-color:#69DF1B;
+    padding-top: 50px;
+    padding-left: 2%;
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 800px;
 }
 
 
 .cursos {
-    text-align: center;
-    width: 90%;
-    height: 100%;
-    padding: 2% 5% 2% 5%;
+    position: relative;
     justify-content: space-between;
-    display: inline-flex;
     align-items: center;
-    #imgcursos{    
-        height: 10%;
-        width: 25%;
-    }
-    #freepick{
-        transform: scaleX(-1);
-        width: 22%;
-        height: 10%;
-    }
+    padding: 30px;
+    display: flex;
+    right: 575px;
+    transition: 0.3s;
 } 
+
+.cursos #txtCurso{
+    padding: 4%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border: #69DF1B solid 10px;
+    background-color:#2176ae;
+    padding-top: 50px;
+    padding-left: 2%;
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 800px;
+}
+
+.cursos #imgcursos{    
+    padding-left: 24%;
+    width: 23%;
+    height: 70%;
+    padding-top: 3%;
+}
+
+.cursos:hover{
+    color: #F4F7E6;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    right:50px;
+    transition: 0.4s;
+}
+
+.cursos:hover #txtCurso{
+    position: relative;
+    border: #69DF1B solid 10px;
+    background-color:#2176ae;
+    padding-top: 50px;
+    padding-left: 2%;
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 800px;
+}
+
+.cursos:hover #imgcursos{    
+    padding-left: 5%;
+    width: 23%;
+    height: 70%;
+    padding-top: 3%;
+}
 
 .final {
     display: flex;
@@ -177,27 +297,33 @@ nav a:hover {
     background-color: #2176ae;
     padding: 0%;
     color: #F4F7E6;
-    width: 100%;
-    h1 {
-        font-size: 1.8em;
-        margin-bottom: 2%;
-    }
-    a {
-        color: #F4F7E6;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    a:hover {
-        color: #69DF1B;
-    }    
-    #ua{
-        text-align: center;
-        padding: 20px;
-    }
-    
-    #rs{
-        text-align: center;
-        padding: 20px;
-    }
+    width: 100%;   
 }
 
+.final h1 {
+    font-size: 1.8em;
+    margin-bottom: 2%;
+}
+
+.final a {
+    color: #F4F7E6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.final a:hover {
+    color: #69DF1B;
+    font-size: 150%;
+    transition: 0.3;
+} 
+
+.final #comeceUsar{
+    text-align: center;
+    padding: 20px;
+}
+
+.final #redesSocias{
+    text-align: center;
+    padding: 20px;
+}
