@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    user-select: none;
+}
+
+header {
+    background-color: #2176ae;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+}
+
+.logo {
+    width: 100%;
+}
+
+.logo img{
+    width: 20%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F4F7E6;
+    font-weight: bold;
+    letter-spacing: 0.1em; 
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #69DF1B;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+#links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.outras_paginas{
+    padding: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 138%; /* 1em é equivalente a 16px */
+    background-color: #F4F7E6;
+    color: #2176ae;
+    margin: 0;
+    padding: 0;
+}
+ 
+.principal{ 
+    position: relative;
+    padding: 2%;
+    display: flex;
+    width: 120%;
+    padding-bottom: 1%;
+    justify-content: center;
+    align-content: center;
+    right: 30%;
+    transition: 0.8s;
+}
+
+#titulo{
+    margin-top: 6%;
+    font-size: 350%;
+    padding-left: 2%;
+}
+
+.principal #imgPrincipal{
+    padding-left: 12%;
+    width: 23%;
+    height: 23%;
+} 
+
+#txtPrincipal{
+    position: relative;
+    border: #2176ae solid 10px;
+    background-color:#69DF1B;
+    width: 50%;
+    padding-right: 2%;
+    right: -2%;
+    border-top-right-radius: 800px;
+    border-bottom-right-radius: 800px;
+    h2, p{
+        opacity: 0;
+    }
+}
+
+.principal:hover #txtPrincipal{
+    position: relative;
+    align-content: center;
+    color: #F4F7E6;
+    border: #2176ae solid 10px;
+    background-color:#69DF1B;
+    padding: 1%;
+    font-size: 120%;
+    padding-left: 15%;
+    border-top-right-radius:800px;
+    border-bottom-right-radius: 800px;
+    h2, p{
+        opacity: 1;
+    }
+}
+
+.principal:hover{
+    display: flex;
+    color: #F4F7E6;
+    position: relative;
+    padding-right: 0%;
+    left: -22%;
+    transition: 0.5s;
+    justify-content: space-around;
+    h1{
+        display: none;
+    }
+    #imgPrincipal{
+        padding-left: 0%;
+    }
+} 
+
+.Produto{
+    color: #F4F7E6;
+    background-color: #2176ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left: 3%;
+    border-top: #69DF1B dashed 10px;
+    border-bottom:#69DF1B dashed 10px;
+    height: 89vh;
+}
+
+.Produto .texto{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4%;   
+    margin-left: 9%; 
+    font-size: 150%;
+    border: #F4F7E6 dashed 10px;
+}
+
+#imgTV {
+    width: 20%;
+}
