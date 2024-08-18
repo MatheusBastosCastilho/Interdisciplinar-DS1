@@ -60,6 +60,7 @@ body {
     justify-content: center;
     align-content: center;
     right: 30%;
+    transition: 0.4s;
 }
 
 #titulo{
@@ -72,23 +73,31 @@ body {
     padding-left: 12%;
     width: 23%;
     height: 23%;
-    transition: 1s;
 } 
 
 #txtPrincipal{
     position: relative;
     border: #2176ae solid 10px;
+    color: #F4F7E6;
     background-color:#69DF1B;
     width: 50%;
     padding-right: 2%;
-    right: -2%;
+    right: -1%;
     border-top-right-radius: 800px;
     border-bottom-right-radius: 800px;
-    h2, p{
-        opacity: 0;
-    }
 }
 
+
+.principal:hover{
+    position: relative;
+    padding: 2%;
+    display: flex;
+    width: 120%;
+    padding-bottom: 1%;
+    justify-content: center;
+    align-content: center;
+    right: 10%;
+}
 .principal:hover #txtPrincipal{
     position: relative;
     align-content: center;
@@ -98,33 +107,40 @@ body {
     padding: 1%;
     font-size: 120%;
     padding-left: 15%;
+    left: 0px;
     border-top-right-radius:800px;
     border-bottom-right-radius: 800px;
-    transition: 1s;
-    h2, p{
-        opacity: 1;
-    }
+    transition: 0.4s;
+   
+}
+.principal:hover #txtPrincipal h2{
+    opacity: 1;
+    transition: 0.4s;
+}
+.principal:hover #txtPrincipal p{
+    opacity: 1;
+    transition: 0.4s;
 }
 
-.principal:hover{
+.principal:hover {
     display: flex;
     color: #F4F7E6;
     position: relative;
-    padding-right: 0%;
     left: -22%;
     justify-content: space-around;
-    h1{
-        display: none;
-    }
-    #imgPrincipal{
-        padding-left: 0%;
-        transition: 1s;
-    }
-} 
+    padding-right: 0;
+    transition: 3s;
+}
 
-.principal:hover h1{
+.principal:hover h1 {
     display: none;
 }
+
+.principal:hover #imgPrincipal { 
+    padding-left: 0;
+    transition: 1.5s;
+}
+
 
 .FundoAzul{
     color: #F4F7E6;
@@ -133,9 +149,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2% 5% 2% 5%;
-    /* padding-top: 2%; 
-    padding-bottom: 2%;
-    padding-left: 3%; */
+
     border-top: #69DF1B dashed 10px;
     border-bottom:#69DF1B dashed 10px;
     height: 89vh;
@@ -199,7 +213,7 @@ body {
 #imgServicos{
     padding-left: 60%;
     position: absolute;
-    transition: 0.8s;
+    transition: 0.4s;
 }
 
 #servicos:hover h1{
@@ -211,12 +225,12 @@ body {
     opacity: 1;
     width: 65%;
     margin-left: 35%;
-    transition: 0.9s;
+    transition: 0.4s;
 }
 
 #servicos:hover #imgServicos{
     padding-left: 10%;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .cursos {
@@ -227,7 +241,7 @@ body {
     align-items: center;
     display: flex;
     right: 20%;
-    transition: 1s;
+    transition: 0.4s;
 } 
 
 .cursos #txtCurso{
@@ -249,7 +263,7 @@ body {
     padding: 0%;
     margin: 0%;
     padding-left: 4%;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .cursos p{
@@ -279,12 +293,12 @@ body {
 
 .cursos:hover h1{
     display: none;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .cursos:hover #imgcursos{    
     padding-left: 5%;
-    transition: 1s;
+    transition: 0.4s;
 }
 
 .final {
@@ -311,7 +325,7 @@ body {
 .final a:hover {
     color: #69DF1B;
     font-size: 150%;
-    transition: 0.3;
+    transition: 0.3s;
 } 
 
 .final #comeceUsar{
