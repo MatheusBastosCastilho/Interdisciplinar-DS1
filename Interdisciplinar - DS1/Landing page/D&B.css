@@ -235,8 +235,6 @@ body {
     align-items: center;
     text-align: center;
     position: relative;
-    border: #69DF1B solid 10%;
-    background-color:#2176ae;
     border-top-right-radius: 800px;
     border-bottom-right-radius: 800px;
 }

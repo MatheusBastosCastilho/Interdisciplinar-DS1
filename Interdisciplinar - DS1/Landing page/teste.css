@@ -72,14 +72,11 @@ nav a:hover {
     position: relative;
     border: #2176ae solid 10px;
     background-color:#69DF1B;
-    /* text-align:start; */
-    /* align-items: center; */
     padding-top: 50px;
     padding-left: 2%;
     padding-right: 2%;
     border-top-right-radius: 800px;
     border-bottom-right-radius: 800px;
-    
 }
 
 .principal h2{
